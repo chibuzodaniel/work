@@ -517,7 +517,7 @@ sup{
 h3{
     font-size: 15px;
     position: absolute;
-    left: 45%;
+    left: 42%;
     color:#666;
     font-weight: 600;
     /* top:59% */
@@ -529,21 +529,24 @@ h6{
 
 }
 .first{
-    top: 62%;
+    top: 80%;
 }
 .second{
-    top: 68%;
+    top: 102%;
+    color:blue;
 }
 
 .firstl{
-    top: 78%;
+    top: 89%;
+    color:red;
 }
 
 .four{
-    top: 95%;
+    top: 111%;
+    color:green;
 }
 .three{
-    top: 85%;
+    top: 125%;
 }
 
 
