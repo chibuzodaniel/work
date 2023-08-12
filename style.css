@@ -489,7 +489,7 @@ input[type="search"]::placeholder{
 .side2 p{
     display: block;
     position: absolute;
-    top: 65%;
+    top: 62%;
     margin-left: 30px;
     color:#666;
     font-size: 20px;
@@ -503,10 +503,23 @@ input[type="search"]::placeholder{
     padding-left: 25px;
     color: #36C;
     /* display: inline-block; */
+    /* display: inline-block; */
+}
+.inside span{
+    color:#666;
+    font-weight: 600;
+    font-size: 15px;
+    position: absolute;
+    left: 45%;
+
+
+
+
 }
 .insideq{
     padding-left: 15px;
     color:#666;
+
 }
 .transfer{
     height: 15px;
