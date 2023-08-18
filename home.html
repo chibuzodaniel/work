@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="boafff.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Home-Bank Of America-Banking</title>
@@ -64,13 +65,80 @@
     </div>
     <div class="view">
        
+
+         <!-- Modal -->
+    <div class="modal fade custom-modal" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog ">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title text-gray-500" id="exampleModalLabel">BofA Adv. Iolta Banking-2988: <b>Account Activity</b></h5>              
+              <button type="button" class="btn-close mb-0" data-bs-dismiss="modal" aria-label="Close"></button>
+             
+            </div>
+            <p class="d-block ms-3 mb-0">Balance Summary:$16,758,740(available as of today  <small id="currentDateTime"></small>)</p>
+            <p class="d-block mt-0 ms-3">View: today <small id="currentDate"></small></p>
+            <h4 class="ms-3">All Transactions</h4>
+            <div class="modal-body">
+                <table class="table table-borderless">
+                    <thead>
+                       <tr class="border-2 ">
+                        <th >Posting Date</th>
+                        <th>Description</th> 
+                        <th>Status</th>
+                        <th>Amount</th>
+                        <th>Available Balance</th>
+                       </tr>
+                    </thead>
+                    <tbody class="border-2">
+                        <tr>
+                            <td >16/08/2023</td>
+                            <td >Online Scheduled Payment to BofA Adv. Relationship 2988 <br>Confirmation #2060795209</td>
+                            <td >C</td>    
+                            <td >-100.00</td>
+
+                        </tr>
+                        <tr>
+                            <td>1/05/2023</td>
+                            <td >BANK OF AMERICA CREDIT CARD Bill <br>Payment</td>
+                            <td>C</td>
+                            <td >-500.00</td>
+                            <td></td>
+
+                        </tr>
+                        <tr>
+                            <td>15/01/2023</td>
+                            <td>WAL-MART #1660 10/23 PURCHASE <br>PALMDALE CA
+                            </td>
+                            <td>C</td>
+                            <td>-400.00</td>
+
+                        </tr>
+                        <tr>
+                            <td>1/11/2022</td>
+                            <td>Online Scheduled Payment to BofA Adv. Relationship 2988 <br>Confirmation #2060795209
+                            </td>
+                            <td>C</td>
+                            <td>350.00</td>
+
+                        </tr>
+                    </tbody>
+                </table>
+              <!-- This is the modal content. You can add any content you want here. -->
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+            </div>
+          </div>
+        </div>
+      </div>
        
         <div class="content2">
             <div class="main">
                 <img src="boafff.png" alt=""><p class="top5">Checking, savings & CDs <sup>a</sup></p>
                 <div class="account">
-                    <p class="inside">BofA Adv. Iolta Banking-2988 <span>$16,758,840</span></p> 
-                    <small class="insideq">Quick view</small>
+                    <p class="inside">BofA Adv. Iolta Banking-2988 <span>$16,758,740</span></p> 
+                    <small class="insideq" data-bs-toggle="modal" data-bs-target="#myModal" >Quick view</small>
                 </div>
               
                 
@@ -126,5 +194,7 @@
             </div>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="main.js"></script>
 </body>
 </html>

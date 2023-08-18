@@ -145,6 +145,7 @@ button{
 }
 small{
     margin: 0 10px;
+    cursor: pointer;
     /* border: 5px solid red; */
 
 }
@@ -602,3 +603,14 @@ h6{
     display: none;
   }
   
+
+  .custom-modal .modal-dialog {
+    position: absolute;
+    top: 170px; /* Adjust the top position */
+    left: 0; /* Center horizontally */
+    transform: translateX(-50%);
+    margin: 0;
+    /* padding: 20%; */
+    max-width: 80%; /* Set the desired width */
+    color: #666;
+  }
