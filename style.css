@@ -572,6 +572,14 @@ h6{
     margin: 0;
   } */
   
+
+
+.side2 .activityhead{
+    /* color: red; */
+    margin-top: -5.5%;
+    margin-left: 10%;
+}
+
   .loading-container {
     position: relative;
     width: 30px;
